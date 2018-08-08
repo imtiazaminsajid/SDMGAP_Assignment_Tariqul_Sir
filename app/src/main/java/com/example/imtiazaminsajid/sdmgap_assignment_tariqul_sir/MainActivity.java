@@ -67,5 +67,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void registration_form(View view) {
+
+        Intent intent = new Intent(MainActivity.this, RegistrationForm.class);
+        startActivity(intent);
+    }
+
+    public void login(View view) {
+
+        Intent intent = new Intent(MainActivity.this, Login.class);
+        startActivity(intent);
     }
 }

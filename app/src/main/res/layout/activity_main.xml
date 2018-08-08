@@ -121,6 +121,20 @@
         android:textColor="#de6c21"
         />
 
+    <Button
+        android:id="@+id/login_page"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/buttonshape2"
+        android:text="Log in"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:onClick="login"
+        android:textColor="#c328f7"
+        />
+
 
 
 

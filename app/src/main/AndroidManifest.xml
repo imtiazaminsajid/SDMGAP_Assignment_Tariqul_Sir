@@ -22,7 +22,10 @@
         <activity android:name=".Blood" />
         <activity android:name=".Phone" />
         <activity android:name=".Calculator" />
-        <activity android:name=".RegistrationForm"></activity>
+        <activity android:name=".RegistrationForm" />
+        <activity android:name=".Display" />
+        <activity android:name=".Login" />
+        <activity android:name=".Login_Display"></activity>
     </application>
 
 </manifest>
