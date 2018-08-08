@@ -32,26 +32,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_weight="5"
         android:orientation="horizontal"
+        android:layout_marginTop="20dp"
         >
 
         <Button
             android:id="@+id/nameButton"
             android:layout_width="100dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:text="Name"
             android:layout_margin="1dp"
+            android:onClick="name"
             android:background="@drawable/buttonshape"
             android:textSize="15dp" />
 
         <Button
             android:id="@+id/emailButton"
             android:layout_width="100dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:text="Email"
+            android:onClick="email"
             android:layout_margin="1dp"
             android:background="@drawable/buttonshape"
             android:textSize="15dp" />
@@ -59,9 +61,10 @@
         <Button
             android:id="@+id/phoneButton"
             android:layout_width="100dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:layout_margin="1dp"
+            android:onClick="phone"
             android:background="@drawable/buttonshape"
             android:text="Phone"
             android:textSize="15dp" />
@@ -69,9 +72,10 @@
         <Button
             android:id="@+id/idButton"
             android:layout_width="100dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:layout_margin="1dp"
+            android:onClick="id"
             android:background="@drawable/buttonshape"
             android:text="ID"
             android:textSize="15dp" />
@@ -79,14 +83,44 @@
         <Button
             android:id="@+id/bloodButton"
             android:layout_width="100dp"
-            android:layout_height="70dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
             android:text="Blood"
+            android:onClick="blood"
             android:layout_margin="1dp"
             android:background="@drawable/buttonshape"
             android:textSize="15dp" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/calculaor"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/buttonshape2"
+        android:text="Calculator"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:onClick="calculator"
+        android:textColor="#152de4"
+        />
+
+    <Button
+        android:id="@+id/registration_form"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/buttonshape2"
+        android:text="Registration form"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:onClick="registration_form"
+        android:textColor="#de6c21"
+        />
+
 
 
 
