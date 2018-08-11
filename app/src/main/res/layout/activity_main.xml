@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,9 +23,9 @@
 
     <ImageButton
         android:id="@+id/toastButton"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/toast3"
+        android:src="@drawable/imtiazamin"
         android:background="@drawable/buttonshape2"
         android:layout_gravity="center"
         android:layout_margin="10dp"
@@ -27,21 +33,53 @@
 
         />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imtiaz Amin Sajid"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/objective"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         >
+
+        <Button
+            android:id="@+id/phoneButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:onClick="phone"
+            android:text="Skills"
+            android:textSize="15dp" />
 
         <Button
             android:id="@+id/nameButton"
             android:layout_width="100dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Name"
+            android:text="Education"
             android:layout_margin="1dp"
             android:onClick="name"
             android:background="@drawable/buttonshape"
@@ -50,42 +88,31 @@
         <Button
             android:id="@+id/emailButton"
             android:layout_width="100dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Email"
+            android:text="Personal Info"
             android:onClick="email"
             android:layout_margin="1dp"
             android:background="@drawable/buttonshape"
             android:textSize="15dp" />
 
         <Button
-            android:id="@+id/phoneButton"
-            android:layout_width="100dp"
-            android:layout_height="80dp"
-            android:layout_weight="1"
-            android:layout_margin="1dp"
-            android:onClick="phone"
-            android:background="@drawable/buttonshape"
-            android:text="Phone"
-            android:textSize="15dp" />
-
-        <Button
             android:id="@+id/idButton"
             android:layout_width="100dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:layout_margin="1dp"
             android:onClick="id"
             android:background="@drawable/buttonshape"
-            android:text="ID"
+            android:text="Language"
             android:textSize="15dp" />
 
         <Button
             android:id="@+id/bloodButton"
             android:layout_width="100dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Blood"
+            android:text="Strength"
             android:onClick="blood"
             android:layout_margin="1dp"
             android:background="@drawable/buttonshape"
@@ -141,3 +168,5 @@
 
 
 </LinearLayout>
+
+</ScrollView>

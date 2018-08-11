@@ -5,15 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".Email">
 
     <TextView
-        android:id="@+id/emailTextview"
+        android:id="@+id/fatherTextview"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:textSize="50dp"
+        android:textSize="25dp"
         android:layout_gravity="center"
-        android:text="Name"
+        android:gravity="center"
+        android:textColor="#fa03b4"
+        />
+    <TextView
+        android:id="@+id/motherTextview"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fa03b4"
+        />
+    <TextView
+        android:id="@+id/bloodTextview"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fa03b4"
+        />
+    <TextView
+        android:id="@+id/addressTextview"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
         android:gravity="center"
         android:textColor="#fa03b4"
         />

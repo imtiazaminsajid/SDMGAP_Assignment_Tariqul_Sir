@@ -11,8 +11,9 @@ public class Id extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_id);
+
         textView=findViewById(R.id.idTextview);
 
-        textView.setText("1537SCE00417");
+        textView.setText("Bangla,English");
     }
 }

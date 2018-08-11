@@ -15,6 +15,7 @@ public class Blood extends AppCompatActivity {
 
         textView=findViewById(R.id.bloodTextview);
 
-        textView.setText("A+");
+        textView.setText("Strong leadership skills.\n" +
+                "Ambitious and target oriented.\n");
     }
 }

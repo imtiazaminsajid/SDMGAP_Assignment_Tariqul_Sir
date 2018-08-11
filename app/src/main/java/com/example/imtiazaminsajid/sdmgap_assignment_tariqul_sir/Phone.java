@@ -15,6 +15,6 @@ public class Phone extends AppCompatActivity {
 
         textView=findViewById(R.id.phoneTextview);
 
-        textView.setText("01677006082");
+        textView.setText("Basic Knowledge of C, Java, PHP, Android Development, HTML/CSSD");
     }
 }

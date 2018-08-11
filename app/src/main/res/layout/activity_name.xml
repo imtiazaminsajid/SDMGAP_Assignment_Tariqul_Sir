@@ -9,12 +9,29 @@
     tools:context=".Name">
 
     <TextView
-        android:id="@+id/nameTextview"
+        android:id="@+id/versityTextview"
         android:layout_width="350dp"
         android:layout_height="70dp"
-        android:textSize="40dp"
+        android:textSize="25dp"
         android:layout_gravity="center"
-        android:text="Name"
+        android:gravity="center"
+        android:textColor="#e92121"
+        />
+    <TextView
+        android:id="@+id/collegeTextview"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#e92121"
+        />
+    <TextView
+        android:id="@+id/schoolTextview"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
         android:gravity="center"
         android:textColor="#e92121"
         />
